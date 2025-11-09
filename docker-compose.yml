@@ -1,0 +1,11 @@
+services:
+  burn_captions:
+    build: .
+    container_name: burn_captions
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: bash run.sh
