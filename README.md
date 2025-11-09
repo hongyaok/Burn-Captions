@@ -2,7 +2,7 @@
 
 Generate subtitles and burn them into a video using whisper.
 
-## Example
+## Use case
 - Input frame:
    ![Input video frame](images/input.png)
 - Output frame with burned captions:
